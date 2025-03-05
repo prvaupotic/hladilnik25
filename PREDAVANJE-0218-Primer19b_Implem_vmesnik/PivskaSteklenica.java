@@ -43,7 +43,7 @@
 		  znamka = z;
 		  temperatura = t;
 		  stopnjaAlkohola = s;
-		  System.out.println("Pivska steklenica je znamke " + z + " s stopnjo alkohola " + s + "%.");
+		  System.out.println("Pivska steklenica je znamke " + z + "s stopnjo alkohola " + s + "%.");
 	  }
 		  
 	/**
@@ -69,7 +69,7 @@
 	public PivskaSteklenica(int k, String z) {
 		  
 		  // Pokličemo drug konstruktor
-		  this(k, z, 8.0); 
+		  this(k, z, 8.0, 4.50); 
 		 		   
 	  }
 	  
@@ -79,14 +79,6 @@
 	   */
 	   public double getStopnjaAlkohola() {
 		   return stopnjaAlkohola;
-	   }
-	  
-	  /**
-	   * Metoda vrne znamko piva
-	   * vrne stopnjo alkohola v odstotkih
-	   */
-	   public String getZnamka() {
-		   return znamka;
 	   }
 	  	  
   }
